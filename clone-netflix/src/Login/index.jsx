@@ -1,16 +1,25 @@
-import { Bodyfilmes } from "./style";
+
+import { Container, Tittle, ContentForms } from "./style";
 
 export const Login = () => {
 
-    return(
-            <body className="BodyFilmes">
-                <Bodyfilmes>
-                <img src ={"https://i.imgur.com/trQAZQE.jpeg"}/>
-                </Bodyfilmes>
-                <div class= "Container-"></div>
-             {/*  */}
-                
-            </body>
+  const handleLogin = () => {
+    alert("Login");
+  };
 
-    )
-}
+  return (
+    <Container>
+        <img src ={"https://i.imgur.com/trQAZQE.jpeg"}/>
+      <ContentForms>
+        <Tittle>Login</Tittle>
+        
+{/* 
+        <InputField propsplaceholder="Digite seu login" propstype="email" />
+
+        <InputField propsplaceholder="Digite sua senha" propstype="password" />
+
+        <Button title="Entrar" handleFunction={handleLogin} /> */}
+      </ContentForms>
+    </Container>
+  );
+};
