@@ -13,12 +13,11 @@ export const Login = () => {
       <ContentForms>
         <Tittle>Login</Tittle>
         
-{/* 
         <InputField propsplaceholder="Digite seu login" propstype="email" />
 
         <InputField propsplaceholder="Digite sua senha" propstype="password" />
 
-        <Button title="Entrar" handleFunction={handleLogin} /> */}
+        <Button title="Entrar" handleFunction={handleLogin} /> 
       </ContentForms>
     </Container>
   );
